@@ -1,0 +1,1 @@
+gcc gcm.cpp thpool.c test-gcm.cpp -o misc/openssl-aes-gcm -lcrypto -lssl -pthread

@@ -5,7 +5,7 @@ Run `sudo apt install -y build-essential libssl-dev`
 
 # Build
 
-Run `mkdir build && cmake .. && make`
+Run `cd tools && ./build.sh`
 
 ## Considerations
 * C & CPP

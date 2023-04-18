@@ -3,6 +3,10 @@
 # Prerequisites
 Run `sudo apt install -y build-essential libssl-dev`
 
+# Build
+
+Run `cmake && make`
+
 ## Considerations
 * C & CPP
 * OpenSSL

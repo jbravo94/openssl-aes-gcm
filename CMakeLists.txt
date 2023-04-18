@@ -4,9 +4,9 @@ project(openssl-aes-gcm)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 
-add_executable(openssl-aes-gcm tests/main.cpp)
-
 add_library(gcm SHARED src/gcm.cpp)
 add_library(thpool SHARED src/thpool.c)
 
-target_link_libraries(main gcm thpool -lcrypto -lssl -pthread)
+add_executable(openssl-aes-gcm tests/main.cpp)
+
+target_link_libraries(openssl-aes-gcm gcm thpool -lcrypto -lssl -pthread)

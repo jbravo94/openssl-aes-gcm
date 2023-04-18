@@ -1,5 +1,5 @@
-#ifndef gcm_h
-#define gcm_h
+#ifndef openssl_aes_gcm_hpp
+#define openssl_aes_gcm_hpp
 
 #include <stdio.h>
 #include <stdlib.h>

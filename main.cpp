@@ -3,7 +3,7 @@
 #include <string.h>
 #include <pthread.h>
 #include "thpool.h"
-#include "gcm.hpp"
+#include "openssl-aes-gcm.hpp"
 
 namespace openssl {
 

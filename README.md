@@ -1,4 +1,4 @@
-# Example implementation of a performant encryption of files with OpenSSL
+# Example implementation of a performant encryption routine for files with OpenSSL
 
 # Prerequisites
 Run `sudo apt install -y build-essential libssl-dev`
